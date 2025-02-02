@@ -99,9 +99,7 @@ CREATE TABLE `client_list` (
 --
 
 INSERT INTO `client_list` (`id`, `code`, `category_id`, `firstname`, `middlename`, `lastname`, `contact`, `address`, `meter_code`, `first_reading`, `status`, `delete_flag`, `date_created`, `date_updated`) VALUES
-(1, '202205020001', 1, 'Mark', 'D', 'Cooper', '09123456789', 'Sample Address', '123456', 1001.00, 1, 0, '2022-05-02 15:13:35', '2022-05-02 15:13:35'),
-(2, '13131313313', 1, 'Elmar', 'Tumicad', 'Cayaba', '09655544093', 'Alinguigan 2nd City of Ilagan Isabela', '100', 10.00, 1, 0, '2024-06-14 16:28:24', '2024-06-14 16:28:24');
-
+(1, '202205020001', 1, 'Mark', 'D', 'Cooper', '09123456789', 'Sample Address', '123456', 1001.00, 1, 0, '2022-05-02 15:13:35', '2022-05-02 15:13:35');
 -- --------------------------------------------------------
 
 --
@@ -152,7 +150,6 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `middlename`, `lastname`, `username`, `password`, `avatar`, `last_login`, `type`, `date_added`, `date_updated`) VALUES
 (1, 'Adminstrator', NULL, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatars/1.png?v=1649834664', NULL, 1, '2021-01-20 14:02:37', '2022-04-13 15:24:24'),
-(5, 'Benjamin', 'Batilpatong', 'Cureg', 'benj', '202cb962ac59075b964b07152d234b70', NULL, NULL, 2, '2024-06-14 16:48:15', '2024-06-14 16:48:15');
 
 --
 -- Indexes for dumped tables
